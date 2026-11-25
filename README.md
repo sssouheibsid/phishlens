@@ -1,6 +1,6 @@
 # PhishLens
 
-[![tests](https://github.com/USERNAME/phishlens/actions/workflows/tests.yml/badge.svg)](https://github.com/USERNAME/phishlens/actions/workflows/tests.yml)
+[![tests](https://github.com/sssouheibsid/phishlens/actions/workflows/tests.yml/badge.svg)](https://github.com/sssouheibsid/phishlens/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.10%20%7C%203.12%20%7C%203.13-blue)
 [![licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
@@ -44,7 +44,7 @@ jamais signalés.
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/phishlens.git
+git clone https://github.com/sssouheibsid/phishlens.git
 cd phishlens
 python -m pip install .
 ```
