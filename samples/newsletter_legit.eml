@@ -1,0 +1,62 @@
+Return-Path: <bounce@journaltech.fr>
+Received: from mx1.exemple-entreprise.fr (mx1.exemple-entreprise.fr [10.0.0.25])
+	by mail.exemple-entreprise.fr with ESMTPS id 7Hq1mN3Bv2;
+	Tue, 25 Nov 2026 07:00:05 +0100
+Received: from smtp.journaltech.fr (smtp.journaltech.fr [93.184.215.14])
+	by mx1.exemple-entreprise.fr with ESMTPS id 9F8E7D6C5B;
+	Tue, 25 Nov 2026 07:00:03 +0100
+Authentication-Results: mx1.exemple-entreprise.fr;
+	spf=pass (sender IP is 93.184.215.14) smtp.mailfrom=journaltech.fr;
+	dkim=pass (2048-bit key) header.d=journaltech.fr header.s=news2026;
+	dmarc=pass (p=QUARANTINE) header.from=journaltech.fr
+Received-SPF: Pass (mx1.exemple-entreprise.fr: domain of journaltech.fr designates 93.184.215.14 as permitted sender)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=journaltech.fr; s=news2026;
+	h=from:to:subject:date:message-id; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+	b=dGVzdHNpZ25hdHVyZWZpY3RpdmVwb3VybGVzdGVzdHNwaGlzaGxlbnM=
+From: "Le Journal Tech" <newsletter@journaltech.fr>
+Reply-To: <redaction@journaltech.fr>
+To: <jean.dupont@exemple-entreprise.fr>
+Subject: La lettre hebdo du Journal Tech - semaine 48
+Date: Tue, 25 Nov 2026 07:00:00 +0100
+Message-ID: <hebdo-48-2026@journaltech.fr>
+List-Unsubscribe: <https://www.journaltech.fr/desabonnement>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="==ALT_NEWS=="
+
+--==ALT_NEWS==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+
+Voici les articles de la semaine :
+
+- Python 3.15 : les nouveautés à retenir
+  https://www.journaltech.fr/articles/python-3-15
+- Bien choisir son clavier mécanique
+  https://www.journaltech.fr/articles/claviers
+
+Bonne lecture,
+La rédaction du Journal Tech
+
+Se désabonner : https://www.journaltech.fr/desabonnement
+
+--==ALT_NEWS==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<body style="font-family:Georgia,serif">
+<h1>La lettre hebdo du Journal Tech</h1>
+<p>Bonjour, voici les articles de la semaine :</p>
+<ul>
+<li><a href="https://www.journaltech.fr/articles/python-3-15">Python 3.15 : les nouveautés à retenir</a></li>
+<li><a href="https://www.journaltech.fr/articles/claviers">Bien choisir son clavier mécanique</a></li>
+</ul>
+<p>Retrouvez toutes nos archives sur <a href="https://www.journaltech.fr/archives">www.journaltech.fr</a>.</p>
+<p>Bonne lecture,<br>La rédaction du Journal Tech</p>
+<p style="font-size:11px"><a href="https://www.journaltech.fr/desabonnement">Se désabonner</a></p>
+</body>
+</html>
+
+--==ALT_NEWS==--

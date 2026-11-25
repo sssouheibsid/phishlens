@@ -1,0 +1,66 @@
+Return-Path: <bounce@paypa1-secure.com>
+Received: from mx1.exemple-entreprise.fr (mx1.exemple-entreprise.fr [10.0.0.25])
+	by mail.exemple-entreprise.fr with ESMTPS id 4Xk2pQ7Lz9;
+	Mon, 24 Nov 2026 08:12:41 +0100
+Received: from mail.paypa1-secure.com (unknown [185.234.72.19])
+	by mx1.exemple-entreprise.fr with ESMTP id 1A2B3C4D5E;
+	Mon, 24 Nov 2026 08:12:39 +0100
+Authentication-Results: mx1.exemple-entreprise.fr;
+	spf=fail (sender IP is 185.234.72.19) smtp.mailfrom=paypa1-secure.com;
+	dkim=none (message not signed);
+	dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=paypa1-secure.com
+Received-SPF: Fail (mx1.exemple-entreprise.fr: domain of paypa1-secure.com does not designate 185.234.72.19 as permitted sender)
+From: "service@paypal.com" <service@paypa1-secure.com>
+Reply-To: <verification-compte@mail-securise.ru>
+To: <jean.dupont@exemple-entreprise.fr>
+Subject: Action requise : votre compte PayPal sera suspendu
+Date: Mon, 24 Nov 2026 08:12:30 +0100
+Message-ID: <20261124081230.5521@paypa1-secure.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==MIXED_BOUNDARY=="
+
+This is a multi-part message in MIME format.
+
+--==MIXED_BOUNDARY==
+Content-Type: multipart/alternative; boundary="==ALT_BOUNDARY=="
+
+--==ALT_BOUNDARY==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+
+Nous avons détecté une activité inhabituelle sur votre compte PayPal.
+Votre compte sera suspendu sous 24 heures si vous ne confirmez pas votre identité.
+
+Vérifiez votre compte immédiatement : http://185.234.72.19/paypal/login.php
+
+Votre facture impayée est jointe à ce message.
+
+Le service clients PayPal
+
+--==ALT_BOUNDARY==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<body style="font-family:Arial,sans-serif">
+<p>Bonjour,</p>
+<p>Nous avons détecté une <b>activité inhabituelle</b> sur votre compte PayPal.<br>
+Votre compte sera suspendu <b>sous 24 heures</b> si vous ne confirmez pas votre identité.</p>
+<p><a href="http://185.234.72.19/paypal/login.php">https://www.paypal.com/signin</a></p>
+<p>Votre facture impayée est jointe à ce message.</p>
+<p>Le service clients PayPal</p>
+</body>
+</html>
+
+--==ALT_BOUNDARY==--
+
+--==MIXED_BOUNDARY==
+Content-Type: application/octet-stream; name="facture.pdf.exe"
+Content-Disposition: attachment; filename="facture.pdf.exe"
+Content-Transfer-Encoding: 7bit
+
+Fichier factice PhishLens : echantillon de test inoffensif, aucun code executable.
+
+--==MIXED_BOUNDARY==--

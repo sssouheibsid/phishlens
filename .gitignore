@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Tests / couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Rapports générés (peuvent contenir des données personnelles)
+reports/
