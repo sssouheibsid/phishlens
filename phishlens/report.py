@@ -69,7 +69,7 @@ h2{font-size:16px;margin:0 0 12px;color:#1f2937}
 table{width:100%;border-collapse:collapse;font-size:14px}
 th,td{text-align:left;padding:7px 10px;border-bottom:1px solid #f0f0f0;vertical-align:top;word-break:break-word}
 th{color:#4b5563;font-weight:600;width:200px}
-thead th{background:#f9fafb;width:auto}
+thead th{background:#f9fafb;width:auto;white-space:nowrap}
 .pill{display:inline-block;color:#fff;border-radius:6px;padding:1px 8px;font-size:12px;font-weight:700}
 .pts{font-weight:700;color:#b91c1c;white-space:nowrap}
 .mono,code{font-family:ui-monospace,Consolas,"Courier New",monospace;font-size:13px;word-break:break-all}
